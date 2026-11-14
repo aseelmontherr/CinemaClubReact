@@ -1,4 +1,4 @@
-function MovieCard({ title, year, rating, available, popular, gener, duration }) {
+function MovieCard({ title, year, rating, available, popular, genre, duration }) {
   return (
     <article className="movie-card">
       <h2>{title}</h2>
